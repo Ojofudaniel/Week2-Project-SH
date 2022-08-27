@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,600;0,900;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+
+.container{
+    display: flex;
+    align-content:center ;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.side-nav{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.side-nav div{
+    margin-bottom: 50px;
+   
+}
+
+.side-nav .sign{
+    padding: 20px;
+}
+
+.side-nav a{
+    display: inline-block;
+    padding: 20px;
+}
+
+.side-nav .active{
+    background-color:#F1D5BB;   
+}
+
+.food-container .row-1{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.food-container .row-1 p{
+    font-weight: 600;
+}
+
+.food-container .row-2{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.food-container .row-2 p{
+    font-weight: 600;
+}
+
+.foods h3{
+    font-weight: 400;
+    font-size: 50px;
+    border-bottom: 3px solid  #F1D5BB;
+    width: 306px;
+    height: 63px;
+    margin-bottom: 30px;
+}
+
+.foods .btn button{
+    padding: 15px 38px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 250px;
+}
